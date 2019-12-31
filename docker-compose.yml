@@ -1,0 +1,14 @@
+version: '2'
+services:
+  web:
+    image: node:13-alpine
+    container_name: web_room.kindai-csg.dev
+    restart: always
+    command: "npm run dev"
+    environment:
+      NODE_ENV: development
+    working_dir: "/src"
+    ports:
+      - "3010:3000"
+    volumes:
+      - "./src:/src"

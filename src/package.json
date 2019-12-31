@@ -1,0 +1,29 @@
+{
+  "name": "room.kindai-csg.dev",
+  "version": "1.0.0",
+  "description": "Manage clubroom",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -L",
+    "tsc": "tsc",
+    "ts-node": "ts-node",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.2",
+    "@types/node": "^13.1.2",
+    "@types/socket.io": "^2.1.4",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "socket.io": "^2.3.0",
+    "ts-node": "^8.5.4",
+    "tslint": "^5.20.1",
+    "tslint-config-prettier": "^1.18.0",
+    "tslint-config-standard": "^9.0.0",
+    "tslint-plugin-prettier": "^2.1.0",
+    "typescript": "^3.7.4"
+  }
+}
